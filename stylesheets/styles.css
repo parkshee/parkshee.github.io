@@ -1,0 +1,107 @@
+body {
+  background-color: #fff;
+  padding: 50px;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #595959;
+}
+
+h1, h2, h3 {
+  color: #222;
+  margin: 0 0 20px;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+p, ul, ol {
+  margin: 0 0 20px;
+}
+
+a {
+  color: #39c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+strong {
+  color: #222;
+  font-weight: 500;
+}
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+}
+
+header {
+  width: 270px;
+  float: left;
+  position: fixed;
+}
+
+section {
+  width: 500px;
+  float: right;
+  padding-bottom: 50px;
+}
+
+footer {
+  width: 270px;
+  float: left;
+  position: fixed;
+  bottom: 50px;
+}
+
+.profile-photo {
+  display: block;
+  width: 200px;
+  height: auto;
+  border-radius: 6px;
+  margin: 10px 0 18px 0;
+  border: 1px solid #e5e5e5;
+}
+
+small {
+  font-size: 11px;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media print, screen and (max-width: 960px) {
+  .wrapper {
+    width: auto;
+    margin: 0;
+  }
+
+  header, section, footer {
+    float: none;
+    position: static;
+    width: auto;
+  }
+
+  section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+}
