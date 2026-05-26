@@ -113,3 +113,6 @@ details p {
   text-align: justify;
   margin-top: 8px;
 }
+section p {
+  text-align: justify;
+}
