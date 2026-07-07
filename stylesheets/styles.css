@@ -69,7 +69,6 @@ footer {
   height: auto;
   border-radius: 6px;
   margin: 10px 0 18px 0;
-  border: 1px solid #e5e5e5;
 }
 
 small {
@@ -124,5 +123,5 @@ section p {
   border-radius: 50%;
   display: block;
   margin: 20px auto;
-  border: 3px solid #ddd;
+  border: none;
 }
